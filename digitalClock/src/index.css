@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(131, 58, 180);
+  background: linear-gradient(180deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.clock-container {
+  backdrop-filter: blur(10px);
+  width: 100vw;
+  padding: 10px 0;
+}
+
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+}
